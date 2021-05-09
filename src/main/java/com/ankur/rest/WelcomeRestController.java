@@ -8,6 +8,7 @@ public class WelcomeRestController {
 
 	@GetMapping("/welcome")
 	public String welcomeMsg() {
+		System.out.println("Welcome to Jenkins...");
 		return "Welcome to the Sample Hello World Program...";
 	}
 
